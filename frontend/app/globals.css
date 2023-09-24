@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+  background-color: rgb(253, 70, 70);
+  width: 100%;
+  height: 100px;
+
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top .manu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.manu li {
+  color: white;
+  margin-right: 20px;
+
+  text-align: center;
+}
+
+.manu li :hover {
+  color: green;
+}
+a {
+  margin: 10px;
+}
+.Registration1 {
+  background-color: papayawhip;
+  height: 70vh;
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.HeaderAdmin1 {
+  display: flex;
+  justify-content: space-between;
+}
+.Main2 {
+  width: 60%;
+  height: 60px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post h5 {
+  color: green;
+  text-align: right;
+  padding-right: 150px;
+}
+.post h4 {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  padding-right: 15px;
+}
+.postInput {
+  justify-content: center;
+}
+.Registration12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 520px;
+  width: 450px;
+  height: 32vh;
+}
+.input12 {
+  width: 400px;
+  height: 35px;
+  margin-left: 20px;
+}
+.table {
+  width: 95%;
+  padding: 50px;
+}
+
+.Registration123 {
+  background-color: rgb(225, 208, 183);
+  height: 60vh;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.input1 {
+  width: 300px;
+  height: 35px;
+  margin: 2px;
+}
+.HeadrerNavbar {
+  padding-top: 10px;
+  padding-left: 300px;
+}
+.textarea {
+  width: 300px;
+}
+.Login-div1 {
+  padding-left: 175px;
+  padding-top: 10px;
+}
+.inputLogin {
+  width: 350px;
+  height: 40px;
+}
+label {
+  font-size: 20px;
+}
+.Login-div {
+  background-color: aqua;
+  width: 800px;
+  height: 350px;
+  border-radius: 5px;
+}
+.UserAdmin {
+  background-color: rgb(225, 208, 183);
+  height: 30vh;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Candidate Css */
+.SearchButton {
+  width: 180px;
+  height: 32px;
+}
+.CandidateStyle {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.Candidate h5 {
+  color: green;
+  text-align: right;
+  padding-right: 150px;
+}
+.containerr {
+  height: 350vh;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 85%;
+  margin: 20px;
+  margin-left: 100px;
+  padding: 10;
+  display: flex;
+  justify-content: center;
+}
+.main1 {
+  margin-left: 25px;
+}
+.main1 input {
+  width: 250px;
+}
+.main1 label {
+  width: 140px;
+}
+
+/* Result table */
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  height: 50px;
+  color: #a71d2a;
+}
+/* Voting page degisn */
+
+.Voting {
+  /* width: 99%; */
+  height: 99%;
+  border: 2px solid seagreen;
+  border-radius: 5px;
+}
+.Header {
+  text-align: center;
+  padding: 15px;
+}
+.SubmitVote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+/* --------------login page---------------- */
+
+.generale-title {
+  border-right: 2px solid green;
+  height: 200px;
+  width: 220px;
+  padding-right: 20px;
+}
+.radio {
+  align-items: center;
+  margin-top: 25px;
+}
